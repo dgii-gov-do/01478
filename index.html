@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validación de Documentos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        .header {
+            background-color: #6BBD07;
+            color: #00008B;
+            padding: 0.5in; /* Media pulgada de padding */
+            text-align: center;
+            font-size: 2em;
+            position: relative;
+        }
+
+        .header::after {
+            content: "";
+            display: block;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 5px; /* Tamaño de la línea negra */
+            background-color: black;
+        }
+
+        .container {
+            max-width: 800px; /* Ancho máximo reducido */
+            margin: 0;
+            padding: 20px;
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            box-sizing: border-box;
+            margin-left: 20px; /* Mover el contenido hacia la izquierda */
+        }
+
+        .subheader {
+            color: #FFA000;
+            text-align: left; /* Alinear a la izquierda */
+            font-size: 1em; /* Tamaño de fuente reducido */
+            margin-bottom: 20px;
+        }
+
+        .data-table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 1.2em; /* Tamaño de fuente reducido */
+            margin-bottom: 20px; /* Espacio entre la tabla y la barra inferior */
+        }
+
+        .data-table th,
+        .data-table td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: left;
+        }
+
+        .data-table th {
+            background-color: #f2f2f2;
+            font-size: 1.4em; /* Tamaño de fuente reducido */
+        }
+
+        .gray-column {
+            background-color: rgba(200, 200, 200, 0.7);
+        }
+
+        .white-column {
+            background-color: #ffffff;
+            padding-left: 5px;
+        }
+
+        .footer {
+            background-color: #ddd;
+            text-align: center;
+            font-size: 0.9em;
+            color: #888;
+            padding: 0.5in; /* Media pulgada de padding */
+            width: 100%;
+            box-sizing: border-box;
+            margin-top: 20px;
+        }
+
+        .gray-column br {
+            display: block;
+            content: "";
+            margin: 4px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <div class="header-text">PLACA PROVISIONAL</div>
+    </div>
+    <div class="container">
+        <div class="subheader">
+            <div>Sistema Datamatrix</div>
+            <div><font color="green">Validación de Documentos</font></div>
+        </div>
+        <table class="data-table">
+            <tbody>
+                <tr>
+                    <th class="gray-column">Código</th>
+                    <td class="white-column">gk8tlxy</td>
+                </tr>
+                <tr>
+                    <th class="gray-column">Placa</th>
+                    <td class="white-column">PP734491</td>
+                </tr>
+                <tr>
+                    <th class="gray-column">Tipo<br>de<br>Vehículo</th>
+                    <td class="white-column">AUTOMÓVIL</td>
+                </tr>
+                <tr>
+                    <th class="gray-column">Marca</th>
+                    <td class="white-column">HONDA</td>
+                </tr>
+                <tr>
+                    <th class="gray-column">Modelo</th>
+                    <td class="white-column">ACCORD LX</td>
+                </tr>
+                <tr>
+                    <th class="gray-column">Color</th>
+                    <td class="white-column">GRIS</td>
+                </tr>
+                <tr>
+                    <th class="gray-column">Año</th>
+                    <td class="white-column">2020</td>
+                </tr>
+                <tr>
+                    <th class="gray-column">Chasis</th>
+                    <td class="white-column">1HGCV1F17LA101931</td>
+                </tr>
+                <tr>
+                    <th class="gray-column">Fecha<br>de<br>Emisión</th>
+                    <td class="white-column">24/06/2024</td>
+                </tr>
+                <tr>
+                    <th class="gray-column">Fecha<br>de<br>Expiración</th>
+                    <td class="white-column">22/09/2024</td>
+                </tr>
+                <tr>
+                    <th class="gray-column">Razón<br>Social<br>/<br>Nombre<br>del<br>Importador</th>
+                    <td class="white-column">GCIAJ AUTO IMPORT EIRL</td>
+                </tr>
+                <tr>
+                    <th class="gray-column">RNC/<br>Cédula<br>del<br>Importador</th>
+                    <td class="white-column">131702783</td>
+                </tr>
+                <tr>
+                    <th class="gray-column">Razón<br>Social<br>/<br>Nombre<br>del<br>Comprador</th>
+                    <td class="white-column">FRANCISCO ANTONIO MARTÍNEZ</td>
+                </tr>
+                <tr>
+                    <th class="gray-column">RNC/<br>Cédula<br>del<br>Comprador</th>
+                    <td class="white-column">10600021553</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="footer">
+        Dirección General de Impuestos Internos.
+    </div>
+</body>
+
+</html>
